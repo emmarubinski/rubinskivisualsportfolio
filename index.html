@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <div class="navbar">
+        <a href='index.html'>Home Page</a>
+        <a href='aboutme.html'>About Me</a>
+        <a href='content.html'>Portfolio</a>
+        <a href='contact.html'>Contact Me</a>
+        <a href="materialize.html">Materialize</a>  
+        </div>
+</head>
+<body>
+
+    <header>
+        <h1>Home</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to My Page!</h2>
+       
+        <div class="image-container">
+            <img src="images/emmaheadshot.jpg" alt="emma.headshot"  class="shadowed" class="bordered">
+        </div>
+    
+        <p>Hi there! My name is <strong>Emma Rubinski</strong>, and I am a passionate <em>digital marketer</em> and <em>photographer</em> based in <u>Cleveland, Ohio</u>. I have interned for a Digital Marketing firm at Alt Media Studios. I am currently a Bubble Skincare Brand Ambassador through social media platforms. My journey in technology began when I was a teenager, and since then, I have been dedicated to learning and growing in this exciting field.</p>
+        <p>On this site, you'll find a collection of my projects and photography portfolio.</p>
+    </section> 
+
+    <section>
+        <h2>My Interests</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Design Thinking Principles</li>
+            <li>Responsive Design</li>
+            <li>UX/UI Design</li>
+            <li>Project Management</li>
+        </ul>
+    </section>
+<!-- Table -->
+<h3>Tools and Skills:</h3><table border="1">
+    <tr>
+  <th>Tools/Skills</th>
+  <th>Experience Level</th>
+    </tr>
+    <tr>
+  <td>Adobe Premiere Pro</td>
+  <td>Advanced</td>
+     </tr>
+     <tr>
+  <td>Adobe Lightroom</td>
+  <td>Expert</td>
+     </tr>
+     </table>
+     </main>
+    <section>
+        <h2>Interesting Facts</h2>
+        <ul>
+            <li>I enjoy dancing in my free time.</li>
+            <li>My favorite show is Modern Family.</li>
+            <li>I love spending time with friends and family.</li>
+        </ul>
+    </section>
+    <title>Show Date and Time</title>
+</head>
+<body>
+
+    <button onclick="showDateTime()">Show Date and Time</button>
+    <p id="dateTime"></p>
+    <script>
+        function showDateTime() {
+            var currentDateTime = new Date();
+            document.getElementById("dateTime").innerHTML = currentDateTime;
+        }
+    </script>
+
+    <footer>
+        <p>Thank you for visiting my page! Feel free to reach out through my contact page for collaborations or inquiries.</p>
+        <p>&copy; 2024 Rubinski Visuals. All rights reserved.</p>  
+    </footer>
+
+</body>
+</html>

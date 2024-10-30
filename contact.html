@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href="styles.css"
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <div class="navbar">
+        <a href='index.html'>Home Page</a>
+        <a href='aboutme.html'>About Me</a>
+        <a href='content.html'>Portfolio</a>
+        <a href='contact.html'>Contact Me</a>
+        <a href="materialize.html">Materialize</a>   
+        </div>
+</head>
+
+<head> 
+    <h1>Contact Me</h1>
+        </header>
+<main>
+    <section>
+        <h2>Get in Touch with Emma</h2>
+        <p>
+            Whether you have questions about my services, or want to provide feedback, feel free to reach out to me. 
+            My main services include graduation photos, senior photos, social media posts, and events. 
+        </p>
+
+        <h3>Ways to Contact Me</h3>
+        <ul>
+            <li><b>Email:</b> rubinskivisuals@gmail.com</li>
+            <li><b>Phone:</b> (123) 456-7890</li>
+            <li><b>Address:</b> 1234 Main St, Oxford, Ohio</li>
+        </ul>
+
+        <aside>
+            <h2>Additional Information</h2>
+            <p>
+                If you have specific inquiries or require assistance regarding any of my services, don't hesitate to contact me.
+                I aim to respond to all inquiries within 24 hours.
+            </p>
+        </aside>
+    </section>
+</main>
+
+<h3>Enter your email here to recieve monthly deals and updates for my services!</h3>
+    <br>
+    <input id="userInput"> <br><br>
+    <button onclick="myFunction()">Submit</button>
+    <p id="message"></p>
+    <script>function myFunction() {
+    let userInput = document.querySelector ("#userInput");
+    let message = document.querySelector ("#message");
+    message.innerHTML = "Thank your for entering your email. I look forward to working with you" + userInput.value;
+    }
+    </script>
+
+
+<footer>
+    <p>Thank you for visiting my page! Feel free to reach out through my contact page for collaborations or inquiries.</p>
+    <p>&copy; 2024 Rubinski Visuals. All rights reserved.</p>  
+</footer>
+
+</body>
+</html>
+   
